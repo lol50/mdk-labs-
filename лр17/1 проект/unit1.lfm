@@ -1,0 +1,69 @@
+object Form1: TForm1
+  Left = 315
+  Height = 546
+  Top = 224
+  Width = 555
+  Caption = 'Form1'
+  ClientHeight = 546
+  ClientWidth = 555
+  LCLVersion = '4.6.0.0'
+  object BitBtn1: TBitBtn
+    Left = 128
+    Height = 30
+    Top = 208
+    Width = 275
+    Caption = 'Щелкните здесь!'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'SimSun-ExtG'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = BitBtn1Click
+  end
+  object StaticText1: TStaticText
+    Left = 88
+    Height = 79
+    Top = 112
+    Width = 395
+    Caption = 'Догодайтесь, кто создал этот проект?'
+    Color = clBackground
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clNavy
+    Font.Height = -21
+    Font.Name = 'Century'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    ParentColor = False
+    TabOrder = 1
+  end
+  object StaticText2: TStaticText
+    Left = 134
+    Height = 87
+    Top = 249
+    Width = 269
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -19
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 2
+    OnClick = StaticText2Click
+  end
+  object BitBtn3: TBitBtn
+    Left = 360
+    Height = 30
+    Top = 400
+    Width = 145
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    TabOrder = 3
+    OnClick = BitBtn3Click
+  end
+end
