@@ -1,0 +1,104 @@
+object Form2: TForm2
+  Left = 1300
+  Height = 240
+  Top = 310
+  Width = 415
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 415
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 8
+    Height = 15
+    Top = 34
+    Width = 76
+    Caption = 'с (основание)'
+  end
+  object Edit1: TEdit
+    Left = 96
+    Height = 23
+    Top = 26
+    Width = 104
+    TabOrder = 0
+  end
+  object Label2: TLabel
+    Left = 50
+    Height = 15
+    Top = 63
+    Width = 34
+    Caption = 'угол a'
+  end
+  object Edit2: TEdit
+    Left = 96
+    Height = 23
+    Top = 55
+    Width = 104
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 304
+    Height = 25
+    Top = 24
+    Width = 83
+    Caption = 'Вычислить'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 304
+    Height = 25
+    Top = 56
+    Width = 83
+    Caption = 'Очистить'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Label3: TLabel
+    Left = 217
+    Height = 15
+    Top = 96
+    Width = 54
+    Caption = 'сторона a'
+  end
+  object Edit3: TEdit
+    Left = 283
+    Height = 23
+    Top = 88
+    Width = 104
+    Enabled = False
+    TabOrder = 4
+    OnChange = Edit3Change
+  end
+  object Label4: TLabel
+    Left = 212
+    Height = 15
+    Top = 129
+    Width = 59
+    Caption = 'площадь S'
+  end
+  object Edit4: TEdit
+    Left = 283
+    Height = 23
+    Top = 121
+    Width = 104
+    Enabled = False
+    TabOrder = 5
+  end
+  object Button3: TButton
+    Left = 272
+    Height = 24
+    Top = 200
+    Width = 135
+    Caption = 'Вернутся на задание 1'
+    TabOrder = 6
+    OnClick = Button3Click
+  end
+  object Image1: TImage
+    Left = 17
+    Height = 114
+    Top = 102
+    Width = 170
+    OnClick = Image1Click
+  end
+end
