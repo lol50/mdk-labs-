@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 972
+  Height = 257
+  Top = 309
+  Width = 320
+  Caption = 'Form1'
+  ClientHeight = 257
+  ClientWidth = 320
+  LCLVersion = '4.2.0.0'
+  OnCreate = FormCreate
+  object Button1: TButton
+    Left = 184
+    Height = 24
+    Top = 200
+    Width = 123
+    Caption = 'Открыть задание 2'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 15
+    Top = 32
+    Width = 6
+    Caption = 'a'
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 15
+    Top = 64
+    Width = 7
+    Caption = 'b'
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 19
+    Top = 63
+    Width = 83
+    Caption = 'Очистить'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Label3: TLabel
+    Left = 24
+    Height = 15
+    Top = 96
+    Width = 4
+    Caption = 't'
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 20
+    Top = 32
+    Width = 83
+    Caption = 'Вычислить'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Edit1: TEdit
+    Left = 37
+    Height = 23
+    Top = 32
+    Width = 91
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 37
+    Height = 23
+    Top = 63
+    Width = 91
+    TabOrder = 4
+  end
+  object Edit3: TEdit
+    Left = 37
+    Height = 23
+    Top = 93
+    Width = 91
+    TabOrder = 5
+  end
+  object Label4: TLabel
+    Left = 176
+    Height = 15
+    Top = 96
+    Width = 4
+    Caption = 'f'
+  end
+  object Edit4: TEdit
+    Left = 187
+    Height = 23
+    Top = 93
+    Width = 112
+    ReadOnly = True
+    TabOrder = 6
+  end
+  object BitBtn1: TBitBtn
+    Left = 16
+    Height = 24
+    Top = 200
+    Width = 120
+    Caption = 'Выход'
+    Kind = bkClose
+    ModalResult = 11
+    TabOrder = 7
+    OnClick = BitBtn1Click
+  end
+end
