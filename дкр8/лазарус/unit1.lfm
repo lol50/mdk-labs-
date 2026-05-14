@@ -1,0 +1,133 @@
+object Form1: TForm1
+  Left = 206
+  Height = 255
+  Top = 377
+  Width = 400
+  BorderStyle = bsDialog
+  Caption = 'Form1'
+  ClientHeight = 255
+  ClientWidth = 400
+  Position = poScreenCenter
+  LCLVersion = '4.6.0.0'
+  Scaled = False
+  object Panel1: TPanel
+    Left = 24
+    Height = 237
+    Top = 8
+    Width = 360
+    ClientHeight = 237
+    ClientWidth = 360
+    Color = 13815498
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 0
+    object EditResult: TEdit
+      Left = 16
+      Height = 23
+      Top = 8
+      Width = 328
+      TabOrder = 0
+    end
+    object ButtonCube: TButton
+      Left = 8
+      Height = 25
+      Top = 40
+      Width = 75
+      Caption = 'Куб'
+      TabOrder = 1
+      OnClick = ButtonCubeClick
+    end
+    object ButtonCuboid: TButton
+      Left = 88
+      Height = 25
+      Top = 40
+      Width = 104
+      Caption = 'Параллелепипед'
+      TabOrder = 2
+      OnClick = ButtonCuboidClick
+    end
+    object ButtonCylinder: TButton
+      Left = 200
+      Height = 25
+      Top = 40
+      Width = 75
+      Caption = 'Цилиндр'
+      TabOrder = 3
+      OnClick = ButtonCylinderClick
+    end
+    object ButtonSphere: TButton
+      Left = 280
+      Height = 25
+      Top = 40
+      Width = 75
+      Caption = 'Сфера'
+      TabOrder = 4
+      OnClick = ButtonSphereClick
+    end
+    object ButtonCalculate: TButton
+      Left = 280
+      Height = 25
+      Top = 76
+      Width = 75
+      Caption = 'Рассчитать'
+      TabOrder = 5
+      OnClick = ButtonCalculateClick
+    end
+    object EditSide: TEdit
+      Left = 120
+      Height = 23
+      Top = 78
+      Width = 155
+      TabOrder = 6
+    end
+    object EditLength: TEdit
+      Left = 120
+      Height = 23
+      Top = 109
+      Width = 155
+      TabOrder = 7
+    end
+    object EditWidth: TEdit
+      Left = 120
+      Height = 23
+      Top = 144
+      Width = 155
+      TabOrder = 8
+    end
+    object EditHeight: TEdit
+      Left = 120
+      Height = 23
+      Top = 176
+      Width = 155
+      TabOrder = 9
+    end
+    object Label1: TLabel
+      Left = 8
+      Height = 15
+      Top = 80
+      Width = 37
+      Caption = 'Ребро:'
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 15
+      Top = 117
+      Width = 38
+      Caption = 'Длина:'
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 15
+      Top = 152
+      Width = 48
+      Caption = 'Ширина:'
+    end
+    object Label4: TLabel
+      Left = 8
+      Height = 15
+      Top = 176
+      Width = 43
+      Caption = 'Высота:'
+    end
+  end
+end
